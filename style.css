@@ -65,6 +65,11 @@
     cursor: pointer;
 }
 
+#section__text-button:hover {
+    background-color: #7871ff;
+    transition: 0.5s;
+}
+
 #section__text-img {
     position: relative;
     left: 2.5rem; 
@@ -163,5 +168,10 @@
     height: 15vh;
     font-size: 1.1rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
+#section__form-button:hover {
+    background-color: #7871ff;
+    transition: 0.5s;
+}
