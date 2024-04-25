@@ -12,7 +12,7 @@
 
 .main__container {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
     "section__text"
     "section__list"
     "container__form";
@@ -72,7 +72,7 @@
 
 #section__text-img {
     position: relative;
-    left: 2.5rem; 
+    left: 2.5rem;
     float: right;
     transform: scale(0.8);
 }
@@ -140,7 +140,7 @@
     border: 1px solid transparent;
     border-radius: 5px;
     font-size: 1.1rem;
-    padding: 2rem 0.7rem; 
+    padding: 2rem 0.7rem;
 }
 
 .input-msg {
@@ -174,4 +174,288 @@
 #section__form-button:hover {
     background-color: #7871ff;
     transition: 0.5s;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .section__text {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #section__text-title {
+        width: 40vw;
+        font-size: 1.1rem;
+    }
+
+    #section__text-paragraph {
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+    }
+
+    #section__text-img {
+        position: relative;
+        left: 1.5rem;
+        width: 60vw;
+        transform: scale(0.7);
+    }
+
+    #section__text-button {
+        width: 22vw;
+        height: 8vh;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .section__list {
+        width:  100vw;
+    }
+
+    .section__list-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 0;
+        width: 98vw;
+    }
+
+    .card {
+        width: 80%;
+        height: 38vh;
+    }
+
+    .purple__square {
+        height: 20vh;
+    }
+
+    .title__card-h2 {
+        width: 7rem;
+        font-size: 0.7rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .paragraph__card-p {
+        padding-top: 0.1rem;
+        font-size: 0.6rem;
+    }
+
+    #section__form-title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .input-msg {
+        padding-top: 0.5rem;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #section__form-button {
+        height: 12vh;
+        font-size: 0.8rem;
+    }
+}
+
+ @media (width: 425px) {
+    .section__text {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #section__text-title {
+        width: 39vw;
+        font-size: 1.5rem;
+    }
+
+    #section__text-paragraph {
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+    }
+
+    #section__text-img {
+        width: 60vw;
+        transform: scale(0.6);
+    }
+
+    #section__text-button {
+        width: 22vw;
+        height: 8vh;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .section__list {
+        width: 100vw;
+    }
+
+    .section__list-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 1rem;
+        width: 50vw;
+    }
+
+    .card {
+        width: 75%;
+        height: 50vh;
+    }
+
+    .purple__square {
+        height: 25vh;
+    }
+
+    .title__card-h2 {
+        width: 10rem;
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .paragraph__card-p {
+        padding-top: 0.1rem;
+        font-size: 0.8rem;
+    }
+
+    #section__form-title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        padding: 1rem;
+    }
+
+    .input-msg {
+        padding-top: 0.5rem;
+    }
+
+    #section__form-button {
+        height: 20vh;
+        font-size: 1rem;
+    }
+} 
+
+ @media (width: 768px) {
+    .section__text {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #section__text-title {
+        width: 39vw;
+        font-size: 1.8rem;
+    }
+
+    #section__text-paragraph {
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+
+    #section__text-img {
+        position: relative;
+        width: 60vw;
+        transform: scale(0.7);
+    }
+
+    #section__text-button {
+        width: 20vw;
+        height: 10vh;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .section__list {
+        width: 100vw;
+    }
+
+    .section__list-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem 0.5rem;
+        width: 99vw;
+    }
+
+    .card {
+        width: 80%;
+        height: 60vh;
+    }
+
+    .purple__square {
+        height: 30vh;
+    }
+
+    .title__card-h2 {
+        width: 95%;
+        font-size: 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .paragraph__card-p {
+        padding-top: 0.1rem;
+        font-size: 1rem;
+    }
+
+    #section__form-title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        padding: 1rem;
+    }
+
+    .input-msg {
+        padding-top: 0.5rem;
+    }
+
+    #section__form-button {
+        height: 20vh;
+        font-size: 1rem;
+    }
+} 
+
+@media (width: 1024px) {
+    .section__text {
+        height: 100vh;
+    }
+
+    .section__list-ul {
+        width: 98vw;
+    }
+
+    .input {
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .input-msg {
+        padding: 1rem 1rem ;
+        font-size: 1.1rem;
+    }
+
+    #section__form-button {
+        height: 30vh;
+        font-size: 1.2rem;
+    }
+}
+
+@media (width: 1440px) {
+    .section__text {
+        height: 100vh;
+    }
+
+    #section__text-img {
+        position: relative;
+        left: 5rem;
+        width: 50vw;
+        transform: scale(0.7);
+    }
+
+    .section__list-ul {
+        width: 99vw;
+    }
+
+    #section__form-button {
+        height: 30vh;
+        font-size: 1.2rem;
+    }
 }
