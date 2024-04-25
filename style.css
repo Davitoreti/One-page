@@ -176,6 +176,88 @@
     transition: 0.5s;
 }
 
+@media (width: 280px) {
+    .section__text {
+        width: 101vw;
+        height: 100vh;
+    }
+
+    #section__text-title {
+        width: 35vw;
+        font-size: 1rem;
+    }
+
+    #section__text-paragraph {
+        font-size: 0.7rem;
+        line-height: 1.3rem;
+    }
+
+    #section__text-img {
+        position: relative;
+        left: 1.4rem;
+        width: 65vw;
+        transform: scale(0.7);
+    }
+
+    #section__text-button {
+        width: 22vw;
+        height: 8vh;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .section__list {
+        width: 101vw;
+    }
+
+    .section__list-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 0;
+        width: 100vw;
+    }
+
+    .card {
+        width: 63%;
+        height: 36vh;
+    }
+
+    .purple__square {
+        height: 18vh;
+    }
+
+    .title__card-h2 {
+        width: 7rem;
+        font-size: 0.6rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .paragraph__card-p {
+        padding-top: 0.1rem;
+        font-size: 0.5rem;
+    }
+
+    #section__form-title {
+        font-size: 1.5rem;
+    }
+
+    .input {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .input-msg {
+        padding-top: 0.5rem;
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #section__form-button {
+        height: 12vh;
+        font-size: 0.8rem;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 375px) {
     .section__text {
         width: 100vw;
